@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HeaderItem from '../pages/HeaderItem'
+import HeaderItem from '../components/HeaderItem'
 import {
     BadgeCheckIcon,
     CollectionIcon,
