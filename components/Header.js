@@ -1,11 +1,21 @@
 import Image from 'next/image'
+import HeaderItem from '../pages/HeaderItem'
+import {
+    BadgeCheckIcon,
+    CollectionIcon,
+    HomeIcon,
+    LightningBoltIcon,
+    SearchIcon,
+    UserIcon,
+} from '@heroicons/react/outline';
+
 
 function Header() {
     return (
         <header className=''>
-            <h1>
-                this is the header
-            </h1>
+            <div>
+                <HeaderItem title='HOME' Icon={HomeIcon}/>
+            </div>
             <Image 
                 className='object-contain'
                 src='https://upload.wikimedia.org/wikipedia/commons/3/30/Hulu_logo_2017.svg' 
