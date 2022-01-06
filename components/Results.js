@@ -1,0 +1,15 @@
+import Thumbnail from "./Thumbnail"
+
+function Results({ results }) {
+    return (
+        <div>
+            {/* Thumbnail */}
+            {results.map(result => (
+                <Thumbnail key={result.id} result={result} />
+            ))}
+            
+        </div>
+    )
+}
+
+export default Results
